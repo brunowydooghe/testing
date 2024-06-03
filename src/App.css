@@ -1,0 +1,59 @@
+
+.containerItem {
+  background: #f8f8f8;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.container { 
+  display: flex;
+  width: 30%;
+}
+
+.imgContianer {
+    width: 40%;
+    height: 100%;
+  }  
+
+.dataContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+  }  
+
+  .title{
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
